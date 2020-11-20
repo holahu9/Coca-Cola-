@@ -10,7 +10,7 @@ section {
     min-height: 100vh;
     padding: 100px;
     justify-content: space-between;
-    background-color: rgb(74, 74, 216);
+    background-color: rgb(92, 92, 236);
     transition:0.5s;
     align-items: center
 }
@@ -92,10 +92,10 @@ header ul li:hover{
 .content .textbox a{
     display: inline-block;
     text-decoration: none;
-    color: #111;
+    color: white;
     margin-top: 20px;
     padding:8px 20px;
-    background-color: white;
+    background-color: #e83731;
     border-radius: 40px;
 
 }
@@ -154,7 +154,7 @@ header ul li:hover{
     margin: 30px;
     display: flex;
     color: white; 
-    font-size: 30px;  
+    font-size: 20px;  
     
 }
 
