@@ -65,3 +65,25 @@ header ul li a{
     line-height: 1.5em;
     text-transform: uppercase;
 }
+
+.content .textbox h2 span{
+
+     font-size: 2em;
+}
+
+.content .textbox a{
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+    margin-top: 20px;
+    padding:8px 20px;
+    background-color: white;
+    border-radius: 40px;
+
+}
+.content .imgbox{
+    display: flex;
+    margin-right: 300px;
+    justify-content: flex-end;
+    
+}
