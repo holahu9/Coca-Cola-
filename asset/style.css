@@ -141,3 +141,23 @@ header ul li:hover{
     transform: translatey(-30px);
     
 }
+
+.iconi{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+  
+   
+}
+
+.iconi i{
+    margin: 30px;
+    display: flex;
+    color: white; 
+    font-size: 30px;  
+    
+}
+
+.iconi i:hover{
+    color: white;
+    transform: translatey(-30%)

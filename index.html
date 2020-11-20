@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -30,18 +31,31 @@
                 <a href="#">View All Product</a>
             </div>
             <div class="imgbox">
-                <img src="asset/pep1.jpg" alt="pepsi">
+                <img src="asset/pep1.jpg" alt="pepsi" class="imgpep">
                 
                 
             </div>
 
         </div>
         <ul class="thump">
-            <li><img src="asset/pep3.jpg"></li>
-            <li><img src="asset/pep6.jpg"></li>
-            <li><img src="asset/pep7.png"></li>
+            <li><img src="asset/pep1.jpg" onclick="slider('asset/pep1.jpg')"></li>
+            <li><img src="asset/pep6.jpg" onclick="slider('asset/pep6.jpg')"></li>
+            <li><img src="asset/pep7.png" onclick="slider('asset/pep7.jpg')"></li>
         </ul>
+        
+            <div class="iconi">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+       
     </section>
+<script type="text/javascript">
+    function slider(product){
+        document.queryselector('.imgpep').src=product;
+    }
+</script>
 </body>
 </html>
                
